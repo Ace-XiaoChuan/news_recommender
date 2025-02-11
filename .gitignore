@@ -1,0 +1,24 @@
+# 忽略 Python 缓存文件
+__pycache__/
+*.py[cod]
+
+# 忽略虚拟环境目录
+venv/
+.env/
+.env*/
+
+# 忽略配置文件（保护敏感信息）
+config/settings.py
+
+# 忽略 IDE 配置文件
+.vscode/
+.idea/
+
+# 忽略日志文件
+*.log
+
+# 忽略 macOS 系统文件
+.DS_Store
+
+# 忽略测试生成的临时文件
+tests/temp/
